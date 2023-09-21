@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Itemlnfo : MonoBehaviour
+public class ItemInfo : MonoBehaviour
 {
-    public int slotld;
-    public int itemld;
+    public int slotId;
+    public int itemId;
 
-    public void InitDummy(int slotld, int itemld)
+    public void InitDummy(int slotld, int itemId)
     {
-        this.slotld = slotld;
-        this.itemld = itemld;
+        this.slotId = slotId;
+        this.itemId = itemId;
     }   
 }
